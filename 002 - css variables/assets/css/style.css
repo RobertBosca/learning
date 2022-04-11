@@ -1,0 +1,84 @@
+:root {
+    --color-hover: white;
+    --background-hover: black;
+    --background-level1: orange;
+    --background-level2: purple;
+    --background-level3: blue;
+    --background-level4: green;
+    --background-level5: brown;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    width: 100px;
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+}
+
+.element:hover {
+    background: var(--background-hover);
+    color: var(--color-hover);
+}
+
+.level1 {
+    width: 100px;
+    background: var(--background-level1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+.level2 {
+    background: var(--background-level2);
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: none;
+}
+
+.level1 .element:hover .level2 {
+    display: block;
+}
+
+.level3 {
+    background: var(--background-level3);
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: none;
+}
+
+.level2 .element:hover .level3 {
+    display: block;
+}
+
+.level4 {
+    background: var(--background-level4);
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: none;
+}
+
+.level3 .element:hover .level4 {
+    display: flex;
+}
+
+.level5 {
+    background: var(--background-level5);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: none;
+}
+
+.level4 .element:hover .level5 {
+    display: block;
+}
