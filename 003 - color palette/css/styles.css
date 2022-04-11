@@ -1,0 +1,58 @@
+:root {
+    --color1: #ECEFF1;
+    --color2: #CFD8DC;
+    --color3: #B0BEC5;
+    --color4: #90A4AE;
+    --color5: #78909C;
+    --color6: #607D8B;
+    --color-code: #FFFFFF;
+    --background-code: #151515;
+
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.background {
+    width: 128px;
+    height: 192px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.code {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    text-align: center;
+    padding: 20px 0px;
+    background: var(--background-code);
+    border-radius: 0px 0px 8px 8px;
+    color: var(--color-code);
+}
+
+.color1 {
+    background: var(--color1);
+}
+
+.color2 {
+    background: var(--color2);
+}
+
+.color3 {
+    background: var(--color3);
+}
+
+.color4 {
+    background: var(--color4);
+}
+
+.color5 {
+    background: var(--color5);
+}
+
+.color6 {
+    background: var(--color6);
+}
