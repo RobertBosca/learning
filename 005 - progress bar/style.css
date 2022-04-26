@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.progress {
+    border: 1px solid #E8E9EB;
+    border-radius: 8px;
+    display: flex;
+    align-content: center;
+    padding: 30px;
+}
+
+.progress-item {
+    width: 25px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.progress-item:last-child {
+    margin-right: 0;
+}
+
+.status1 {
+    background: #D8CBFD;
+}
+
+.status2 {
+    background: #9672F9;
+}
+
+.status3 {
+    background: #263238;
+}
