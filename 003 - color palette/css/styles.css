@@ -7,7 +7,16 @@
     --color6: #607D8B;
     --color-code: #FFFFFF;
     --background-code: #151515;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .container {
@@ -19,17 +28,17 @@
 .background {
     width: 128px;
     height: 192px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0 0;
 }
 
 .code {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.44px;
+    letter-spacing: 1px;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 0;
     background: var(--background-code);
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0 0 8px 8px;
     color: var(--color-code);
 }
 
