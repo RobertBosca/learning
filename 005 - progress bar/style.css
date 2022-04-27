@@ -1,3 +1,9 @@
+:root{
+    --background-status1: #D8CBFD;
+    --background-status2: #9672F9;
+    --background-status3: #263238;
+    --margin-right: 5px;
+}
 body {
     display: flex;
     justify-content: center;
@@ -17,7 +23,7 @@ body {
 
 .progress-item {
     width: 25px;
-    margin-right: 5px;
+    margin-right: var(--margin-right);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -28,13 +34,13 @@ body {
 }
 
 .status1 {
-    background: #D8CBFD;
+    background: var(--background-status1);
 }
 
 .status2 {
-    background: #9672F9;
+    background: var(--background-status2);
 }
 
 .status3 {
-    background: #263238;
+    background: var(--background-status3);
 }
